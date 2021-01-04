@@ -18,6 +18,11 @@
                     "url": "https://www.ing.com.au/securebanking/"
                 },
                 {
+                    "type": "link",
+                    "text": "storypark",
+                    "url": "https://app.storypark.com/users/sign_in"
+                },
+                {
                     "type": "sub_title",
                     "text": "organisation"
                 },
@@ -35,6 +40,40 @@
                     "type": "link",
                     "text": "lastpass",
                     "url": "https://lastpass.com/?ac=1&lpnorefresh=1"
+                }
+            ]           
+        },
+        {
+            "column_title"  : "entertainment",
+            "links"     : [
+                {
+                    "type": "sub_title",
+                    "text": "videos"
+                },
+                {
+                    "type": "link",
+                    "text": "youtube",
+                    "url": "https://youtube.com/"
+                },
+                {
+                    "type": "link",
+                    "text": "netflix",
+                    "url": "https://netflix.com/"
+                },
+                {
+                    "type": "link",
+                    "text": "amazon_prime",
+                    "url": "https://www.primevideo.com/"
+                },
+                {
+                    "type": "link",
+                    "text": "disney+",
+                    "url": "https://www.disneyplus.com/"
+                },
+                {
+                    "type": "link",
+                    "text": "/r/videos",
+                    "url": "https://old.reddit.com/r/videos"
                 },
                 {
                     "type": "sub_title",
@@ -42,10 +81,34 @@
                 },
                 {
                     "type": "link",
-                    "text": "yt music",
+                    "text": "yt_music",
                     "url": "https://music.youtube.com"
+                },
+                {
+                    "type": "link",
+                    "text": "spotify",
+                    "url": "https://open.spotify.com"
+                },
+                {
+                    "type": "sub_title",
+                    "text": "games"
+                },
+                {
+                    "type": "link",
+                    "text": "steam",
+                    "url": "https://steampowered.com"
+                },
+                {
+                    "type": "link",
+                    "text": "epic",
+                    "url": "https://epicgames.com"
+                },
+                {
+                    "type": "link",
+                    "text": "humble_bundle",
+                    "url": "https://humblebundle.com"
                 }
-            ]           
+            ]
         },
         {
             "column_title": "social",
@@ -64,11 +127,6 @@
                     "type": "link",
                     "text": "instagram",
                     "url": "https://www.instragram.com/"
-                },
-                {
-                    "type": "link",
-                    "text": "youtube",
-                    "url": "https://www.youtube.com/"
                 },
                 {
                     "type": "link",
@@ -98,25 +156,6 @@
                     "type": "link",
                     "text": "ing",
                     "url": "https://www.ing.com.au/securebanking/"
-                },
-                {
-                    "type": "sub_title",
-                    "text": "organisation"
-                },
-                {
-                    "type": "link",
-                    "text": "keep",
-                    "url": "https://keep.google.com/"
-                },
-                {
-                    "type": "link",
-                    "text": "calendar",
-                    "url": "https://calendar.google.com/"
-                },
-                {
-                    "type": "link",
-                    "text": "lastpass",
-                    "url": "https://lastpass.com/?ac=1&lpnorefresh=1"
                 }
             ]           
         }

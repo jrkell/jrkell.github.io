@@ -18,10 +18,10 @@ def generateLinks():
     bookmarks_dict = json.loads(bookmarks_json)
     if debug: print(bookmarks_dict)
     for col in bookmarks_dict["columns"]:
-        output += """<div class="main">
+        output += """<div class="%s">
                         <ul class="hyperlinks">
-                        <li id="main-h">%s</li>
-                """ % (col["column_title"])
+                        <li id="%s-h">%s</li>
+                """ % (col["column_title"],col["column_title"],col["column_title"])
         for item in col["links"]:
             if item["type"] == "sub_title":
                 output += "<li class='separators'>---%s---</li>" % (item["text"])

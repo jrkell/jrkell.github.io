@@ -130,9 +130,9 @@ input {
 }
 
 .main,
-.tech,
+.entertainment,
 .social,
-.varsity,
+.work,
 .media,
 .programming,
 .gaming {
@@ -144,9 +144,9 @@ input {
 }
 
 .main:hover,
-.tech:hover,
+.entertainment:hover,
 .social:hover,
-.varsity:hover,
+.work:hover,
 .media:hover,
 .programming:hover,
 .gaming:hover {
@@ -161,7 +161,7 @@ input {
     order: 1;
 }
 
-.varsity {
+.work {
     order: 2;
 }
 
@@ -242,7 +242,7 @@ a:active {
 
 /* section headings */
 
-#main-h, #varsity-h, #social-h, #tech-h, #programming-h, #media-h, #gaming-h{
+#main-h, #work-h, #social-h, #entertainment-h, #programming-h, #media-h, #gaming-h{
     font-weight: bold;
 
 }
@@ -250,7 +250,7 @@ a:active {
     color: var(--magenta);
 }
 
-#varsity-h {
+#work-h {
     color: var(--green);
 }
 
@@ -258,7 +258,7 @@ a:active {
     color: var(--orange);
 }
 
-#tech-h {
+#entertainment-h {
     color: var(--cyan);
 }
 
@@ -304,5 +304,16 @@ a:active {
 
 .clock {
     margin-left: 5%;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.clock>div {
     font-size: 20px;
+}
+
+#hello {
+    font-size: 30px;
 }

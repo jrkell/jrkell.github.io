@@ -42,7 +42,7 @@ gruvboxDark = {
     base04:  "#1D2021",
     base03:  "#282828",
     base02:  "#3c3836",
-    base01:  "#7c6f64",
+    base01:  "#564E47",
     base00:  "#7c6f64",
     base0:   "#928374",
     base1:   "#928374",
@@ -178,4 +178,12 @@ const cycleThemes = (themeIndex=(Math.floor(Math.random() * availableThemes.leng
     })
 }
 
-cycleThemes(2)
+const defaultTheme = (themeIndex=1) => {
+    themes.forEach(theme => {
+        document.documentElement.style.setProperty(`--${theme}`, availableThemes[themeIndex][theme])
+    })
+}
+// 1 or 4
+
+defaultTheme()
+// cycleThemes(2)
