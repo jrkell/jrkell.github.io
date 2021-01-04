@@ -35,6 +35,15 @@
                     "type": "link",
                     "text": "lastpass",
                     "url": "https://lastpass.com/?ac=1&lpnorefresh=1"
+                },
+                {
+                    "type": "sub_title",
+                    "text": "music"
+                },
+                {
+                    "type": "link",
+                    "text": "yt music",
+                    "url": "https://music.youtube.com"
                 }
             ]           
         },

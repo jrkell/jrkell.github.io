@@ -301,3 +301,8 @@ a:active {
     background-color: var(--base00);
     color: var(--base03);
 }
+
+.clock {
+    margin-left: 5%;
+    font-size: 20px;
+}
