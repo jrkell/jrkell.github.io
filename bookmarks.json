@@ -141,6 +141,26 @@
             ]
         },
         {
+            "column_title": "news",
+            "links": [
+                {
+                    "type": "link",
+                    "text": "abc_news",
+                    "url": "https://www.abc.net.au/news"
+                },
+                {
+                    "type": "link",
+                    "text": "/r/worldnews",
+                    "url": "https://old.reddit.com/r/worldnews"
+                },
+                {
+                    "type": "link",
+                    "text": "guardian",
+                    "url": "https://www.theguardian.com/au"
+                }
+            ]
+        },
+        {
             "column_title"  : "work",
             "links"     : [
                 {
