@@ -20,7 +20,7 @@
 }
 
 
-@media (max-width: 500px) {
+@news (max-width: 500px) {
     .links-container {
         flex-direction: column !important;
         order: 2 !important;        
@@ -133,7 +133,7 @@ input {
 .entertainment,
 .social,
 .work,
-.media,
+.news,
 .programming,
 .gaming {
     width: auto;
@@ -147,7 +147,7 @@ input {
 .entertainment:hover,
 .social:hover,
 .work:hover,
-.media:hover,
+.news:hover,
 .programming:hover,
 .gaming:hover {
     background-color: var(--base03);
@@ -173,7 +173,7 @@ input {
     order: 4;
 }
 
-.media {
+.news {
     order: 5;
 }
 
@@ -242,7 +242,7 @@ a:active {
 
 /* section headings */
 
-#main-h, #work-h, #social-h, #entertainment-h, #programming-h, #media-h, #gaming-h{
+#main-h, #work-h, #social-h, #entertainment-h, #programming-h, #news-h, #gaming-h{
     font-weight: bold;
 
 }
@@ -266,7 +266,7 @@ a:active {
     color: var(--red);
 }
 
-#media-h {
+#news-h {
     color: var(--yellow);
 }
 
@@ -321,7 +321,19 @@ a:active {
     font-size: 15px;
 }
 
+.feed>div {
+    display: block;
+}
+
 .feed {
+    margin-left: 5%;
+}
+
+.news_header {
     margin-top: 20px;
     margin-left: 5%;
+}
+
+.news_header:hover {
+    color: white;    
 }
