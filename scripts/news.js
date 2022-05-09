@@ -30,6 +30,7 @@ const truncate = (text) => {
 
 getRedditContent('worldnews', 'news', 'worldnews_header')
 getRedditContent('australia', 'aus', 'aus_header')
+getRedditContent('listentothis', 'listentothis', 'listentothis_header')
 
 
 var coll = document.getElementsByClassName('news_header')
