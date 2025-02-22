@@ -18,11 +18,6 @@
                     "url": "https://www.ing.com.au/securebanking/"
                 },
                 {
-                    "type": "link",
-                    "text": "storypark",
-                    "url": "https://app.storypark.com/users/sign_in"
-                },
-                {
                     "type": "sub_title",
                     "text": "organisation"
                 },
@@ -126,7 +121,7 @@
                 {
                     "type": "link",
                     "text": "instagram",
-                    "url": "https://www.instragram.com/"
+                    "url": "https://www.instagram.com/"
                 },
                 {
                     "type": "link",
