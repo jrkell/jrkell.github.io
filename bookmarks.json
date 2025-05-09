@@ -33,8 +33,8 @@
                 },
                 {
                     "type": "link",
-                    "text": "lastpass",
-                    "url": "https://lastpass.com/?ac=1&lpnorefresh=1"
+                    "text": "bitwarden",
+                    "url": "https://vault.bitwarden.com"
                 }
             ]           
         },
@@ -64,6 +64,11 @@
                     "type": "link",
                     "text": "disney+",
                     "url": "https://www.disneyplus.com/"
+                },
+                {
+                    "type": "link",
+                    "text": "plex",
+                    "url": "https://app.plex.tv/desktop"
                 },
                 {
                     "type": "link",
@@ -127,11 +132,6 @@
                     "type": "link",
                     "text": "reddit",
                     "url": "https://old.reddit.com/"
-                },
-                {
-                    "type": "link",
-                    "text": "discord",
-                    "url": "https://discord.com/channels/@me"
                 }
             ]
         },
@@ -145,6 +145,11 @@
                 },
                 {
                     "type": "link",
+                    "text": "dutch_news",
+                    "url": "https://www.dutchnews.nl"
+                },
+                {
+                    "type": "link",
                     "text": "/r/worldnews",
                     "url": "https://old.reddit.com/r/worldnews"
                 },
@@ -154,25 +159,6 @@
                     "url": "https://www.theguardian.com/au"
                 }
             ]
-        },
-        {
-            "column_title"  : "work",
-            "links"     : [
-                {
-                    "type": "sub_title",
-                    "text": "dev ops"
-                },
-                {
-                    "type": "link",
-                    "text": "some links",
-                    "url": "https://mail.google.com/"
-                },
-                {
-                    "type": "link",
-                    "text": "ing",
-                    "url": "https://www.ing.com.au/securebanking/"
-                }
-            ]           
         }
     ]
 }
